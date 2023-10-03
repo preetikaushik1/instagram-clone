@@ -33,7 +33,7 @@
 		width: 100%;
 		height: 90vh;
 		float: left;
-		background-color: rgb(254, 254, 254);
+		background-color:rgb(252, 250, 250);
 	}
 	.footer{
 		width: 100%;
@@ -66,6 +66,28 @@
 		font-size: 40px;
 		text-align: center;margin-top: 30px;
 	}
+	.top-section{
+		width: 100%;
+		float: left;
+		/*border: 2px solid red;*/
+	}
+	.top-left-box{
+		width: 50%;
+		float: left;
+		padding-left: 20px;
+		/*border: 2px solid red;*/
+
+	}
+	.top-right-box{
+		width: 50%;
+		float: left;
+		/*border: 2px solid red;*/
+		text-align: right;
+		padding: 20px;
+		padding-top: 40px;
+
+	}
+
 
 
 
