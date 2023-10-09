@@ -21,18 +21,24 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 1000px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 
 	.outerbox{
 		display: block;
 		width: 100%;
 		float: left;
-		height: 100vh;
+	
 	}
 	.header{
 		width: 100%;
 		float: left;
 		background-color:rgb(252, 250, 250);
+	}
+	.center-box{
+		width: 100%;
+		float: left;
+		/*border: 3px solid orange;*/
+		
 	}
 	.footer{
 		width: 100%;
@@ -46,7 +52,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding: 40px 0px;
+		padding: 15px 0px;
 		
 	}
 	.icon-main{
@@ -57,7 +63,7 @@
 	a{
 		text-decoration: none;
 		color: rgb(27, 26, 26);
-		font-size: 47px;
+		font-size: 42px;
 		font-weight: 100;
 	}
 	.heading-text{
@@ -88,7 +94,7 @@
 	}
 	.profile-inner{
 		width: 100%;
-		border: 2px solid rgb(200, 76, 4);
+		/*border: 2px solid rgb(200, 76, 4);*/
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -107,7 +113,7 @@
 		width: 100%;
 		float: left;
 		/*border: 2px solid green;*/
-		margin-top: 25px;
+		margin-top: 15px;
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0px 10px;
@@ -134,49 +140,50 @@
 		float: left;
 	}
 	.plus-iconbox{
-		width: 56px;
-		height: 56px;
+		width: 38px;
+		height:38px;
 		padding: 5px;
 		padding-bottom: 15px;
 		border: 2px solid rgb(255, 255, 255);
-		font-size: 30px;
+		font-size: 20px;
 		background-color: #327ef9;
 		border-radius: 50%;
-		margin-top: -60px;
-		margin-right: -7px;
+		margin-top: -45px;
+		margin-right: -5px;
 		float: right;
 		
 	}
 	#i{
 		color: white;
-		margin-left: 10px;
+		text-align: center;
+		margin-left: 5px;
 	}
 	.profile-box02{
 		width: 100%;
 	}
 	.your-story{
 		text-align: center;
-		font-size: 25px;
+		font-size: 20px;
 		font-weight: 400;
 		color: rgb(34, 34, 34);
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 	.post01-box{
 		width: 100%;
 		float: left;
-		border: 2px solid red;
+		/*border: 2px solid red;*/
 		margin-top: 20px;
 	}
 	.post-topbox{
 		width: 100%;
 		float: left;
-		border: 2px solid green;
+		/*border: 2px solid green;*/
 		padding:  10px 40px ;
 	}
 	.post-imgbox{
 		width: 100%;
 		float: left;
-		border: 2px solid yellow;
+		/*border: 2px solid yellow;*/
 	
 	}
 	.user1{
@@ -185,6 +192,23 @@
 		float: left;
 		border: 2px solid rgb(138, 138, 138);
 		border-radius: 50%;
+	}
+	.like-box{
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+	}
+	.like-user{
+		width: 40px;
+		height: 40px;
+		float: left;
+		border: 2px solid rgb(138, 138, 138);
+		border-radius: 50%;margin-left: 50px;
+		margin-right: 20px;
+	}
+	.like-text{
+		float: left;
+		margin-top: 10px;
 	}
 	.icon3{
 		text-align: right;
@@ -203,12 +227,12 @@
 	.post-msgbox{
 		width: 100%;
 		float: left;
-		border: 2px solid rgb(207, 17, 17);
+		/*border: 2px solid rgb(207, 17, 17);*/
 		padding:  10px 40px ;
 
 	}
 	.heart{
-		font-size: 50px;
+		font-size: 38px;
 		font-weight: 600;
 		float: left;
 		margin-left: 20px;
@@ -219,7 +243,7 @@
 	.chat{
 		margin-left: 40px;
 		float: left;
-		margin-top: 10px;
+		margin-top: 5px;
 	}
 	.send{
 		margin-left: 40px;
